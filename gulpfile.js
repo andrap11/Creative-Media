@@ -20,6 +20,8 @@ gulp.task('scripts', function() {
  // Compile CSS from Sass files
 gulp.task('sass', function() {
     return sass('src/scss/', { style: 'expanded' })
+        .pipe(concat('app.css'))
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('build/css'));
 });
 
