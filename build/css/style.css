@@ -212,7 +212,7 @@ section .middle-section .col.right {
 }
 section .middle-section .col.right .video {
   height: 305px;
-  width: auto;
+  width: 93%;
   border-radius: 10px;
 }
 section .bottom-section {
