@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "Simple landing page for CreativeMedia",
+  "description": "Simple landing page for CreativeLuggage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,13 @@
     "gulp-imagemin": "^2.2.1",
     "gulp-cache": "^0.2.8",
     "gulp-concat": "^2.5.2",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "gulp-order": "^1.1.1",
+    "main-bower-files": "^2.6.2",
+    "gulp-filter": "^2.0.2"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "1.2.x"
   }
 }

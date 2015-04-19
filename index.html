@@ -3,160 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <title>Simple Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="build/css/third-party.css">
   <link rel="stylesheet" type="text/css" href="build/css/app.min.css">
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,600,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
-<header>
-  <div class="hero-banner">
-    <div class="hero-banner-inner">
-      <h1> Notify<span class="green">.</span></h1>
-      <h2>A great new free psd theme to showcase your new application.</h2>
-      <ul class="os-buttons">
-        <li class="apple">
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-apple fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="andriod">
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-android fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="windows">
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-windows fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
+<header> 
+  <div class="header-inner">
+    <div class="small-12 medium-12 large-7 columns left">
+      <div class="logo"><h2><a href="#">yourlogo</a></h2></div>
+      <ul class="header-menu">
+        <li class="menu-item"><a href="#">Home</a></li>
+        <li class="menu-item"><a href="#">Tour</a></li>
+        <li class="menu-item"><a href="#">Pricing</a></li>
+        <li class="menu-item"><a href="#">About</a></li>
+        <li class="menu-item"><a href="#">Contact</a></li>
       </ul>
+      <div class="hero-banner">
+        <h1>Lorem ipsum dolor sit amet,
+consectetur adipiscing elit</h1>
+        <h2>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque tincidunt convallis nulla. </h2>
+        <a class="get-app active" href="#">Get the app</a>
+        <a class="learn-more" href="#">Learn more</a>
+      </div>
+    </div>
+    <div class="small-12 medium-12 large-5 columns right">
+      <div class="hero-image"> <img src="assets/images/iphone-white.png"/></div>
     </div>
   </div>
 </header>
 
 <body>
-  <section>
-    <div class="top-section">
-      <div class="col editable">
-       <img class="gear" src="assets/images/gear.png"/>
-       <h2 class="title">Editable Theme</h2>
-       <h4 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</h4>
+  <div class="main-content">
+    <section>
+      <div class="inner-content row">
+        <div class="small-12 medium-12 large-5 columns left">
+          <div class="image-slider">
+            <div class="slider-img"><img src="assets/images/iphone-black.png"/></div>
+            <div class="slider-img"><img src="assets/images/iphone-black.png"/></div>
+            <div class="slider-img"><img src="assets/images/iphone-black.png"/></div>
+          </div>
+        </div>
+        <div class="small-12 medium-12 large-7 columns right">
+          <h2 class="section-title">Etiam sit amet porta mauris</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet ipsum ut arcu pharetra fringilla ac at sapien. Maecenas quam enim, facilisis et magna ac, dignissim feugiat erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque tincidunt convallis nulla.<p>
+        </div>
       </div>
-      <div class="col flat-design">
-        <img class="star" src="assets/images/star.png"/>
-        <h2 class="title">Flat Design</h2>
-        <h4 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</h4>
+    </section>
+    <section>
+      <div class="inner-content row ">
+        <div class="small-12 medium-12 large-7 columns left">
+           <h2 class="section-title">Etiam sit amet porta mauris</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet ipsum ut arcu pharetra fringilla ac at sapien. Maecenas quam enim, facilisis et magna ac, dignissim feugiat erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque tincidunt convallis nulla.<p>
+        </div>
+        <div class="small-12 medium-12 large-5 columns right">
+          <div class="image-slider">
+            <div class="slider-img"><img src="assets/images/iphone-black.png"/></div>
+            <div class="slider-img"><img src="assets/images/iphone-black.png"/></div>
+            <div class="slider-img"><img src="assets/images/iphone-black.png"/></div>
+          </div>
+        </div>
       </div>
-      <div class="col audience">
-        <img class="globe" src="assets/images/globe.png"/>
-        <h2 class="title">Reach Your Audiance</h2>
-        <h4 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</h4>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="middle-section">
-      <div class="col left">
-        <h2 class="title">Get Notified of Any Updates!</h2>
-        <p class="notification-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
-        <form class="notifications">
-          <input type="email" name="email" required placeholder="Email Address"/>
-          <input type="submit"  value="Notify">
-      </form>
-      </div>
-      <div class="col right">
-        <video class="video"  poster="assets/images/video-poster.png">
-          <source src="movie.mp4" type="video/mp4">
-          <source src="movie.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="bottom-section">
-      <div class="testimonials">
-        <p class="testimonial-body">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut.”</p>
-        <h1 class="testimonial-author">Jane Austen<h1>
-        <ul id="image-list">
-
-        </ul>
-      </div>
-      <div class="get-in-touch">
-        <h1> Say Hi & Get in Touch</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse. </h3>
-        <ul class="social-sharing-buttons"> 
-          <li>
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-               <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-               <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-               <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-               <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-               <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-               <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </body>
 <footer>
   <div class="footer-inner">
-    <ul class="footer-links">
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Download</a></li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">Email</a></li>
-      <li><a href="#">Support</a></li>
-      <li><a href="#">Privacy Policy</a></li>
+    <ul class="social-media">
+      <li class="facebook">
+        <a href="#">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="twitter">
+        <a href="#">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="linkedin">
+        <a href="#">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="rss">
+        <a href="#">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
     </ul>
+    <ul class="footer-menu">
+      <li><a href="#">Download the app</a></li>
+      <li><a href="#">Press</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <p class="copyright">© 2014 Freebies Gallery. All rights reserved. iPhone is a trademark of Apple Inc. App Store is a service mark of Apple inc.</p>
+    <p class="author">Designed by <span class="dark">Asif Aleem</span></p>
+
   </div>
 </footer>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="build/js/third-party.js"></script>
 <script src="build/js/app.min.js"></script>
